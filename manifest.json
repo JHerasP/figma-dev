@@ -5,7 +5,7 @@
   "version": "1.0",
   "permissions": ["tabs"],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "scripts/background.js"
   },
   "action": {
     "default_icon": "images/icon-16.png"
