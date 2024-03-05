@@ -1,0 +1,14 @@
+{
+  "name": "figma-dev",
+  "version": "1.0.0",
+  "description": "Auto dev mode for figma",
+  "main": "manifest.json",
+  "dependencies": {
+    "chrome-types": "^0.1.270"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JDev",
+  "license": "ISC"
+}
