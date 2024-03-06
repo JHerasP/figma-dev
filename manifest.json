@@ -3,11 +3,12 @@
   "name": "Figma dev reminder",
   "description": "Dont forget to dev",
   "version": "1.0",
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "storage"],
   "background": {
     "service_worker": "scripts/background.js"
   },
   "action": {
+    "default_popup": "main.html",
     "default_icon": "images/icon-16.png"
   },
   "icons": {

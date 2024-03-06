@@ -1,0 +1,34 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(135deg, #0e050c, #072328);
+
+  padding: 1rem;
+  width: 6rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0cd47a;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+}
