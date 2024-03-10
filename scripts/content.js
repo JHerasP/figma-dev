@@ -36,6 +36,6 @@ function getRandomInsult() {
   return friendlyInsults[randomIndex];
 }
 
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener(() => {
   alert(getRandomInsult());
 });

@@ -39,7 +39,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
   debounceTimer = setTimeout(() => showAlert(tabId), 4000);
 });
 
-chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+chrome.runtime.onMessage.addListener(function (message) {
   if (message.action !== "toggleExtension") return;
   extensionEnabled = message.enabled;
 
