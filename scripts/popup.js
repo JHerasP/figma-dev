@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
   const toggleCheckbox = document.getElementById("toggleCheckbox");
 
-  chrome.storage.sync.get("extensionEnabled", function (data) {
+  chrome.storage.sync.get("extensionEnabled", (data) => {
     toggleCheckbox.checked = data.extensionEnabled;
   });
 
-  toggleCheckbox.addEventListener("change", function () {
+  toggleCheckbox.addEventListener("change", () => {
     const isChecked = toggleCheckbox.checked;
 
     chrome.storage.sync.set({extensionEnabled: isChecked});

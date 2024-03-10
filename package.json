@@ -6,9 +6,7 @@
   "dependencies": {
     "chrome-types": "^0.1.270"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "JDev",
   "license": "ISC"
 }
